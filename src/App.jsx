@@ -1,12 +1,12 @@
-import "./assets/styles/App.scss";
-import { Wrapper } from "./components/Wrapper/Wrapper";
-import { Atom } from "./components/Atom/Atom";
+// src/App.jsx
+import React from "react";
+import ImageGallery from "./components/ImageGallery";
 
 function App() {
   return (
-    <Wrapper>
-      <Atom></Atom>
-    </Wrapper>
+    <div>
+      <ImageGallery />
+    </div>
   );
 }
 
